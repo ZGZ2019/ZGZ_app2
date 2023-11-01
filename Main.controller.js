@@ -8,6 +8,7 @@ sap.ui.define([
             //Step 1: get the object of our view
             var oView = this.getView();
             //Step 2: get the object of image which is inside the view
+            //any 
             var oSpidy = oView.byId("idSpiderman");
             //Step 3: make the image visible
             oSpidy.setVisible(true);
